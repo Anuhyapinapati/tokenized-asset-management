@@ -1,0 +1,133 @@
+.Form {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.Form_box_input {
+  margin-top: 1.5rem;
+}
+
+.Form_box_input label {
+  display: block;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.Form_box_input_userName {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.875rem 1rem;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.Form_box_input_userName:focus {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.Form_box_input_box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.Form_box_input_box:focus-within {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.Form_box_input_box_icon {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.Form_box_input_box_icon:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.Form_box_input_box input {
+  flex: 1;
+  padding: 0.875rem 1rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.Form_box_input textarea {
+  width: 100%;
+  min-height: 120px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.Form_box_input textarea:focus {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.Form_box_input_social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.Form_box_btn {
+  margin-top: 2.5rem;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(45deg, #3a7bd5, #00d2ff);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 35em) {
+  .Form_box_input_social {
+    grid-template-columns: 1fr;
+  }
+
+  .Form {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .Form_box_input_social {
+    grid-template-columns: 1fr 1fr;
+  }
+}
