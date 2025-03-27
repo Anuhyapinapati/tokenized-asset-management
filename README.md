@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Building and Deploying a Blockchain NFT Marketplace DApp
 
 Enter the realm of digital ownership and creativity with our blockchain NFT (Non-Fungible Token) Marketplace DApp. This groundbreaking platform empowers creators and collectors to tokenize and trade unique digital assets securely and transparently on the blockchain.
@@ -112,3 +113,6 @@ We are using RemixID for deploying the contract and generation of the ABI in the
 - [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
 - [@consultancy](https://www.theblockchaincoders.com/consultancy)
 - [@youtube](https://www.youtube.com/@daulathussain)
+
+# tokenized-asset-management
+40c5c7d67b467d80492423f42547b6918f232c48
